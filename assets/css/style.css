@@ -35,6 +35,18 @@ body {
 
 }
 
+.txtcuadros {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
 .txtparrafo2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -42,6 +54,17 @@ body {
     font-size: 1.3rem;
     line-height: 2.8rem;
     color: #efc469;
+
+
+}
+
+.txtparrafomob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+    color: #000000;
 
 
 }
@@ -176,6 +199,16 @@ body {
     border: 4.7666px solid #99CFDF;
     background-color: #99CFDF;
     width: 20%;
+
+
+}
+
+.lineaacordeon {
+
+    border: 4.7666px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 100%;
+    
 
 
 }
