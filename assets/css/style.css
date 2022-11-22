@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../img/fondo.png')
@@ -38,9 +39,9 @@ body {
 .txtcuadros {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
     text-align: center;
     color: #FFFFFF;
 
@@ -54,17 +55,6 @@ body {
     font-size: 1.3rem;
     line-height: 2.8rem;
     color: #efc469;
-
-
-}
-
-.txtparrafomob {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2.8rem;
-    color: #000000;
 
 
 }
@@ -169,7 +159,7 @@ body {
     font-weight: 500;
     font-size: 1.875rem;
     line-height: 2rem;
-    color: #82B0C7;
+    color: #000000;
 
 
 }
@@ -189,7 +179,7 @@ body {
 
     border: 4.7666px solid #C5665E;
     background-color: #C5665E;
-    width: 20%;
+    width: 25%;
 
 
 }
@@ -198,14 +188,14 @@ body {
 
     border: 4.7666px solid #99CFDF;
     background-color: #99CFDF;
-    width: 20%;
+    width: 25%;
 
 
 }
 
 .lineaacordeon {
 
-    border: 4.7666px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: #ffffff;
     opacity: 100%;
 }
@@ -223,4 +213,144 @@ body {
 
 .footer2 {
     background-color: #000000;
+}
+
+/*VERSION MOBILE*/
+
+.fondoheadermob {
+    background-color: #99CFDF;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+.fondomob1 {
+    background-color: #75ABBF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    background-image: url('../img/fondosm1.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 5%;
+    
+}
+
+.fondomob2 {
+    background-color: #5AA69C;
+    margin: 0 auto;
+    
+}
+
+.fondomob3 {
+    background-color: #E6E6E7;
+    margin: 0 auto;
+    background-image: url('../img/molecula.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 90%;
+    background-position-y: 0.2%;
+}
+
+.txtparrafomob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #EFC469;
+    text-align: center;
+
+
+}
+
+.acordeonmob {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: #efc469;
+    margin: 0 auto;
+
+
+}
+
+#acordeonmob {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #ffffff;
+    background-color: #efc469;
+    padding: 0.75rem 1rem;
+    margin: 0 auto;
+
+}
+
+.lineaacordeonmob {
+
+    border: 0.1rem solid #ffffff;
+    background-color: #ffffff;
+    opacity: 100%;
+}
+
+.txtparrafo1mob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.txtcuadrosmob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.txtnombreinstructoresmob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2rem;
+    color: #000000;
+
+
+}
+
+.txtinstructoresmob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #000000;
+
+
+}
+
+.txtparrafo1mob {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+
+
 }
